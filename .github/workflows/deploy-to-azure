@@ -23,5 +23,4 @@ name: Deploy to Azure
             acrName: ${{ vars.AZURE_PREFIX }}acr
             resourceGroup: ${{ vars.AZURE_RG }}
             containerAppName: ${{ vars.AZURE_PREFIX }}containerapp
-            containerAppEnvironment: ${{ vars.AZURE_PREFIX }}contai
-            
+            containerAppEnvironment: ${{ vars.AZURE_PREFIX }}containerappenvironment
